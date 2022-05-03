@@ -290,17 +290,47 @@ video {
    margin-bottom: 0
 }
 
+
+.content__list-item:last-child {
+   margin-bottom: 0;
+}
+
 .content__list-item:before {
-   content: "";
+   content: "ЭТАП";
    position: absolute;
-   width: 2.2222222222vw;
-   height: 0.4166666667vw;
-   top: 50%;
+   top: 0.416vw;
    left: 0;
-   transform: translateY(-50%);
-   background: url("../img/line--list.svg") no-repeat;
-   background-position: center center;
-   background-size: contain
+   font-weight: 400;
+   font-size: 0.83vw;
+   line-height: 0.97vw;
+   text-transform: uppercase;
+   color: #BCBCBC;
+}
+
+.content__list-item::after {
+   content: '01';
+   font-family: 'Druk Cyr';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2.77vw;
+   line-height: 3.54vw;
+   letter-spacing: 0.16em;
+   position: absolute;
+   top: 0.9vw;
+   left: 0;
+   color: #000;
+}
+
+.content__list-item:nth-child(2)::after {
+   content: '02';
+}
+
+.content__list-item:nth-child(3)::after {
+   content: '03';
+}
+
+.content__list-item:nth-child(4)::after {
+   content: '04';
 }
 
 .heading {
@@ -1082,16 +1112,15 @@ video {
    }
 
    .content__list-item:before {
-      content: "";
-      position: absolute;
-      width: 32px;
-      height: 6px;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      background: url("../img/line--list.svg") no-repeat;
-      background-position: center center;
-      background-size: contain
+      top: 6px;
+      font-size: 12px;
+      line-height: 14px;
+   }
+
+   .content__list-item::after {
+      font-size: 40px;
+      line-height: 51px;
+      top: 13px;
    }
 
    .heading {
