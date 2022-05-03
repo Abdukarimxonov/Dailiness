@@ -1529,6 +1529,14 @@ video {
    .diary__text {
       max-width: 82.5%
    }
+
+   .diary__inner {
+      padding: 50px 0 50px;
+   }
+
+   .content__inner {
+      padding: 50px 0;
+   }
 }
 
 @media (max-width:767px) {
@@ -2313,7 +2321,7 @@ video {
    flex: 0 1 24.44vw;
    background-image: url('../img/reviews/Ellipse.png');
    background-position: center;
-   background-size: contain;
+   background-size: cover;
 }
 
 .reviews-slide-next {
