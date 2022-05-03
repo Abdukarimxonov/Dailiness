@@ -290,9 +290,12 @@ video {
    margin-bottom: 0
 }
 
+.content__list-item p:first-child {
+   padding-top: 0;
+}
 
-.content__list-item:last-child {
-   margin-bottom: 0;
+.content__list-item p {
+   padding-top: 0.76vw;
 }
 
 .content__list-item:before {
@@ -1102,9 +1105,13 @@ video {
    .content__list-item {
       position: relative;
       padding-left: 57px;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.67;
       margin-bottom: 37px
+   }
+
+   .content__list-item p {
+      padding-top: 11px;
    }
 
    .content__list-item:last-child {
@@ -1603,9 +1610,8 @@ video {
    }
 
    .content__list-item {
-      padding-left: 32px;
       margin-bottom: 24px;
-      max-width: 315px
+      max-width: 100%;
    }
 
    .content__list-item:before {
@@ -2070,11 +2076,10 @@ video {
    .author__heading span.surname::before {
       content: "";
       position: absolute;
-      bottom: calc(-4px + -19 * ((100vw - 425px) / 1440));
-      ;
-      right: calc(-60px + -94 * ((100vw - 425px) / 1440));
-      width: calc(87px + 151 * ((100vw - 425px) / 1440));
-      height: calc(97px + 172 * ((100vw - 425px) / 1440));
+      bottom: 10px;
+      right: -54px;
+      width: 87px;
+      height: 97px;
       background: url("../img/author/listok.png") no-repeat;
       background-position: center center;
       background-size: contain;
@@ -2088,6 +2093,10 @@ video {
 @media (max-width:768px) {
    .text-400-16 {
       font-size: 14px;
+   }
+
+   .author__heading span.surname::before {
+      bottom: 0;
    }
 
    .author__instagram {
