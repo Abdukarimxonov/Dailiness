@@ -1460,7 +1460,7 @@ video {
    }
 }
 
-@media (max-width:1199px) {
+@media (max-width:1219px) {
    .container {
       padding: 0 20px
    }
@@ -1941,6 +1941,10 @@ video {
       margin-right: 50px;
    }
 
+   .author__about-text p {
+      font-size: 16px;
+   }
+
    .author__photo {
       width: 426px;
       height: 512px;
@@ -2304,7 +2308,8 @@ video {
 }
 
 .revievs-slide__reviev {
-   margin: 0 9.16vw;
+   box-sizing: content-box;
+   padding: 0 9.16vw;
    flex: 0 1 24.44vw;
    background-image: url('../img/reviews/Ellipse.png');
    background-position: center;
@@ -2406,7 +2411,7 @@ video {
    }
 
    .revievs-slide__reviev {
-      margin: 0 132px;
+      padding: 0 132px;
       flex: 0 1 352px;
    }
 
@@ -2526,7 +2531,7 @@ video {
 }
 
 .content__list-li {
-   font-weight: 400;
+   font-weight: 300;
    display: flex;
    padding-top: 1.52vw;
    align-items: center;
