@@ -1103,6 +1103,14 @@ video {
       margin-bottom: 37px;
    }
 
+   .content__list-item p {
+      padding-top: 11px;
+   }
+
+   .content__list-item p:first-child {
+      padding-top: 0;
+   }
+
    .content__list-item:last-child {
       margin-bottom: 0;
    }
@@ -1563,7 +1571,7 @@ video {
    }
 
    .content__inner {
-      padding: 80px 0 36px 0;
+      padding: 50px 0 36px 0;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
@@ -1635,7 +1643,8 @@ video {
    }
 
    .diary__img {
-      width: 100%;
+      width: auto;
+      height: 439px;
       left: 0;
    }
 
@@ -1901,10 +1910,10 @@ video {
 
 @media (max-width:1440px) {
    .author__text::before {
-      width: calc(22.59px + 32 * ((100vw - 425px) / 1440));
+      width: 32px;
       height: 5.34px;
       top: 12.2px;
-      left: calc(-25.59px + -32 * ((100vw - 425px) / 1440));
+      left: -57px;
    }
 
    .author {
@@ -2043,6 +2052,7 @@ video {
       width: calc(335px + 1000 * ((100vw - 375px) / 1024));
       padding-right: calc(100 * ((100vw - 375px) / 1024));
       padding-left: calc(100 * ((100vw - 375px) / 1024));
+      padding-bottom: 25px;
    }
 
    .author__heading {
@@ -2096,6 +2106,13 @@ video {
 
    .author {
       padding-bottom: calc(0px + 115 * ((100vw - 425px) / 1440));
+   }
+
+   .author__text::before {
+      width: 22.59px;
+      height: 5.34px;
+      top: 12.2px;
+      left: -32.3px;
    }
 }
 
@@ -2274,6 +2291,9 @@ video {
 .revievs-slide__reviev {
    margin: 0 9.16vw;
    flex: 0 1 24.44vw;
+   background-image: url('../img/reviews/Ellipse.png');
+   background-position: center;
+   background-size: cover;
 }
 
 .reviews-slide-next {
@@ -2499,6 +2519,7 @@ video {
 }
 
 .content__list-li {
+   font-weight: 400;
    display: flex;
    padding-top: 1.52vw;
    align-items: center;
@@ -2578,11 +2599,13 @@ video {
    }
 
    .content__inner {
-      padding-bottom: 331px;
+      padding-bottom: 286px;
    }
 
    .content__list-box {
       display: flex;
       flex-direction: column;
+      padding-bottom: 45px;
+      border-bottom: 1px solid #D7D7D7;
    }
 }
