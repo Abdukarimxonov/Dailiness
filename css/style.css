@@ -2522,12 +2522,7 @@ video {
    }
 }
 
-@media (max-width:500px) {
-   .revievs-slide__reviev {
-      background-size: 310px 403px;
-      background-position: center 25px;
-   }
-}
+
 
 .content-text {
    text-align: center;
@@ -2637,5 +2632,12 @@ video {
       flex-direction: column;
       padding-bottom: 45px;
       border-bottom: 1px solid #D7D7D7;
+   }
+}
+
+@media (max-width:500px) {
+   .revievs-slide__reviev {
+      background-size: 310px 403px;
+      background-position: center 25px;
    }
 }
