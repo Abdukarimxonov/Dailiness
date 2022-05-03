@@ -2321,7 +2321,8 @@ video {
    flex: 0 1 24.44vw;
    background-image: url('../img/reviews/Ellipse.png');
    background-position: center;
-   background-size: cover;
+   background-size: 536px 604px;
+   background-repeat: no-repeat;
 }
 
 .reviews-slide-next {
@@ -2479,6 +2480,8 @@ video {
    .revievs-slide__reviev {
       flex-basis: 100%;
       text-align: center;
+      background-size: 363px 403px;
+      background-position: center 25px;
    }
 
    .revievs-slide__reviev img {
@@ -2516,6 +2519,13 @@ video {
 
    .reviews {
       margin-top: 44px;
+   }
+}
+
+@media (max-width:500px) {
+   .revievs-slide__reviev {
+      background-size: 310px 403px;
+      background-position: center 25px;
    }
 }
 
