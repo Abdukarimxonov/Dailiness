@@ -50,13 +50,13 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: transparent
 }
 
 body {
    font-family: "Stolzl";
    font-weight: 300;
-   color: #000;
+   color: #000
 }
 
 a,
@@ -70,37 +70,37 @@ ul {
    background-color: transparent;
    list-style-type: none;
    text-decoration: none;
-   outline: none;
+   outline: none
 }
 
 button {
-   cursor: pointer;
+   cursor: pointer
 }
 
 img,
 video {
    width: 100%;
-   height: auto;
+   height: auto
 }
 
 .container {
    margin: 0 auto;
    max-width: 87.5vw;
-   padding: 0 0.6944444444vw;
+   padding: 0 0.6944444444vw
 }
 
 .main-screen {
    display: flex;
    justify-content: center;
    align-items: center;
-   min-height: 100vh;
+   min-height: 100vh
 }
 
 .main-screen__inner {
    padding: 4.3055555556vw 0;
    display: flex;
    align-items: flex-start;
-   justify-content: space-between;
+   justify-content: space-between
 }
 
 .main-screen__text-box {
@@ -108,23 +108,23 @@ video {
    max-width: 39.9%;
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
+   align-items: flex-start
 }
 
 .main-screen__logo {
-   margin-bottom: 8.8888888889vw;
+   margin-bottom: 8.8888888889vw
 }
 
 .main-screen__info-text {
    margin-bottom: 0.8333333333vw;
    font-size: 1.25vw;
    line-height: 1.2;
-   color: #636363;
+   color: #636363
 }
 
 .main-screen__info-text:nth-child(4) {
    align-self: flex-end;
-   margin-bottom: 9.375vw;
+   margin-bottom: 9.375vw
 }
 
 .main-screen__text {
@@ -135,7 +135,7 @@ video {
    color: #5e5e5e;
    text-align: center;
    margin-bottom: 1.3888888889vw;
-   max-width: 62.42%;
+   max-width: 62.42%
 }
 
 .main-screen__icons {
@@ -143,34 +143,34 @@ video {
    align-items: center;
    justify-content: center;
    -ms-grid-row-align: center;
-   align-self: center;
+   align-self: center
 }
 
 .main-screen__icon {
-   margin-right: 1.1111111111vw;
+   margin-right: 1.1111111111vw
 }
 
 .main-screen__icon:last-child {
-   margin-right: 0;
+   margin-right: 0
 }
 
 .main-screen__video-text {
-   margin-bottom: 1.3888888889vw;
+   margin-bottom: 1.3888888889vw
 }
 
 .main-screen__video-box {
    width: 100%;
-   max-width: 45.16%;
+   max-width: 45.16%
 }
 
 .logo {
-   max-width: 5.625vw;
+   max-width: 5.625vw
 }
 
 .video-text {
    width: 100%;
    height: 9.7222222222vw;
-   position: relative;
+   position: relative
 }
 
 .video-text:after {
@@ -184,21 +184,21 @@ video {
    background: url("../img/line--main.svg") no-repeat;
    background-size: contain;
    background-position: center center;
-   z-index: 10;
+   z-index: 10
 }
 
 .video-text__inner {
    width: 100%;
    height: 100%;
    overflow: hidden;
-   position: relative;
+   position: relative
 }
 
 .video-text__video {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%)
 }
 
 .video-text__text {
@@ -217,14 +217,14 @@ video {
    color: #000;
    text-transform: uppercase;
    text-align: center;
-   mix-blend-mode: screen;
+   mix-blend-mode: screen
 }
 
 .content__inner {
    padding: 7.1527777778vw 0;
    display: flex;
    align-items: flex-start;
-   justify-content: space-between;
+   justify-content: space-between
 }
 
 .content__heading-box {
@@ -232,14 +232,14 @@ video {
    max-width: 39.9%;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: center
 }
 
 .content__heading {
    max-width: 19.7222222222vw;
    margin-bottom: 3.1944444444vw;
    position: relative;
-   z-index: 2;
+   z-index: 2
 }
 
 .content__heading:after {
@@ -252,7 +252,7 @@ video {
    background: url("../img/leaf--content.png") no-repeat;
    background-position: center center;
    background-size: contain;
-   z-index: 3;
+   z-index: 3
 }
 
 .content__heading:before {
@@ -266,7 +266,7 @@ video {
    background: url("../img/line--content.svg") no-repeat;
    background-position: center center;
    background-size: contain;
-   z-index: -1;
+   z-index: -1
 }
 
 .content__list-box {
@@ -275,58 +275,32 @@ video {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   margin-top: 2.5vw;
+   margin-top: 2.5vw
 }
 
 .content__list-item {
    position: relative;
-   padding-left: 5.069vw;
+   padding-left: 3.9583333333vw;
    font-size: 1.25vw;
    line-height: 1.67;
-   font-weight: 300;
-   margin-bottom: 2.5694444444vw;
+   margin-bottom: 2.5694444444vw
 }
 
 .content__list-item:last-child {
-   margin-bottom: 0;
+   margin-bottom: 0
 }
 
 .content__list-item:before {
-   content: "ЭТАП";
+   content: "";
    position: absolute;
-   top: 0.416vw;
+   width: 2.2222222222vw;
+   height: 0.4166666667vw;
+   top: 50%;
    left: 0;
-   font-weight: 400;
-   font-size: 0.83vw;
-   line-height: 0.97vw;
-   text-transform: uppercase;
-   color: #BCBCBC;
-}
-
-.content__list-item::after {
-   content: '01';
-   font-family: 'Druk Cyr';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 2.77vw;
-   line-height: 3.54vw;
-   letter-spacing: 0.16em;
-   position: absolute;
-   top: 0.9vw;
-   left: 0;
-   color: #000;
-}
-
-.content__list-item:nth-child(2)::after {
-   content: '02';
-}
-
-.content__list-item:nth-child(3)::after {
-   content: '03';
-}
-
-.content__list-item:nth-child(4)::after {
-   content: '04';
+   transform: translateY(-50%);
+   background: url("../img/line--list.svg") no-repeat;
+   background-position: center center;
+   background-size: contain
 }
 
 .heading {
@@ -336,7 +310,7 @@ video {
    line-height: 1.269;
    letter-spacing: 0.05em;
    text-transform: uppercase;
-   text-align: center;
+   text-align: center
 }
 
 .button {
@@ -351,55 +325,55 @@ video {
    border: 0.0694444444vw solid transparent;
    transition: background 350ms ease-in-out, color 350ms ease-in-out, border 350ms ease-in-out;
    padding: 1.6666666667vw 2.2222222222vw;
-   white-space: nowrap;
+   white-space: nowrap
 }
 
 .button:hover {
    background: #fff;
    border: 0.0694444444vw solid #295941;
-   color: #295941;
+   color: #295941
 }
 
 .diary__inner {
    padding: 7.1527777778vw 0 6.9444444444vw 0;
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: center
 }
 
 .diary__img-box {
    width: 100%;
    max-width: 39.9%;
-   position: relative;
+   position: relative
 }
 
 .diary__img-box:after {
    content: "";
    position: absolute;
-   width: 100%;
-   height: 100%;
+   width: 83.03%;
+   height: 93.91%;
    top: 1.4583333333vw;
    left: 2.5694444444vw;
    background: rgba(0, 0, 0, 0.3);
    filter: blur(2.8472222222vw);
-   z-index: -1;
+   z-index: -1
 }
 
 .diary__img {
    position: relative;
    left: 2.5694444444vw;
-   width: 100%;
+   width: 80.4%
 }
 
 .diary__text-box {
    width: 100%;
-   max-width: 45.16%;
+   max-width: 45.16%
 }
 
 .diary__heading {
    position: relative;
    display: inline-block;
-   margin-bottom: 3.3333333333vw;
+   margin-bottom: 3.3333333333vw
 }
 
 .diary__heading:after {
@@ -411,14 +385,14 @@ video {
    height: 11.9444444444vw;
    background: url("../img/leaf--diary.png") no-repeat;
    background-position: center center;
-   background-size: contain;
+   background-size: contain
 }
 
 .diary__text {
    max-width: 62.5%;
    font-size: 1.1111111111vw;
    line-height: 1.75;
-   letter-spacing: 0.05em;
+   letter-spacing: 0.05em
 }
 
 .go__inner {
@@ -426,25 +400,25 @@ video {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: flex-start;
+   justify-content: flex-start
 }
 
 .go__top {
    margin-bottom: 0.8333333333vw;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: center
 }
 
 .go__top-text {
    font-size: 1.25vw;
    line-height: 1.2222;
    color: #636363;
-   margin-right: 5vw;
+   margin-right: 5vw
 }
 
 .go__top-text:last-child {
-   margin-right: 0;
+   margin-right: 0
 }
 
 .go__heading {
@@ -462,7 +436,7 @@ video {
    color: transparent;
    margin-bottom: 4.7916666667vw;
    position: relative;
-   text-align: center;
+   text-align: center
 }
 
 .go__heading:after {
@@ -473,7 +447,7 @@ video {
    transform: translateX(-50%);
    height: 0.0694444444vw;
    width: 8.9583333333vw;
-   background: #e8e8e8;
+   background: #e8e8e8
 }
 
 .go__text {
@@ -481,7 +455,7 @@ video {
    line-height: 1.2;
    color: #636363;
    text-align: center;
-   margin-bottom: 0.7638888889vw;
+   margin-bottom: 0.7638888889vw
 }
 
 .go__subheading {
@@ -492,7 +466,7 @@ video {
    line-height: 1.26;
    letter-spacing: 0.08em;
    margin-bottom: 2.8472222222vw;
-   text-transform: uppercase;
+   text-transform: uppercase
 }
 
 .modal-form {
@@ -510,20 +484,20 @@ video {
    transition: opacity 300ms ease-in-out;
    opacity: 0;
    z-index: 1000;
-   visibility: hidden;
+   visibility: hidden
 }
 
 .modal-form::-webkit-scrollbar {
-   display: none;
+   display: none
 }
 
 .modal-form--open {
    visibility: visible;
-   opacity: 1;
+   opacity: 1
 }
 
 .modal-form--close {
-   opacity: 0;
+   opacity: 0
 }
 
 .modal-form__bg {
@@ -532,7 +506,7 @@ video {
    right: 0;
    left: 0;
    bottom: 0;
-   background: #0005;
+   background: #0005
 }
 
 .modal-form__content-box {
@@ -551,11 +525,11 @@ video {
    overflow-y: scroll;
    overflow-x: hidden;
    -ms-overflow-style: none;
-   scrollbar-width: none;
+   scrollbar-width: none
 }
 
 .modal-form__content-box::-webkit-scrollbar {
-   display: none;
+   display: none
 }
 
 .modal-form__close-button {
@@ -565,13 +539,13 @@ video {
    width: 2.4305555556vw;
    height: 2.4305555556vw;
    cursor: pointer;
-   z-index: 10001;
+   z-index: 10001
 }
 
 .modal-form__close-button-inner {
    position: relative;
    width: 2.4305555556vw;
-   height: 2.4305555556vw;
+   height: 2.4305555556vw
 }
 
 .modal-form__close-button-item {
@@ -580,15 +554,15 @@ video {
    background: #c0c0c0;
    position: absolute;
    top: 50%;
-   left: 50%;
+   left: 50%
 }
 
 .modal-form__close-button-item:first-child {
-   transform: translate(-50%, -50%) rotate(45deg);
+   transform: translate(-50%, -50%) rotate(45deg)
 }
 
 .modal-form__close-button-item:nth-child(2) {
-   transform: translate(-50%, -50%) rotate(-45deg);
+   transform: translate(-50%, -50%) rotate(-45deg)
 }
 
 .modal-form__heading {
@@ -597,7 +571,7 @@ video {
    font-size: 3.6111111111vw;
    line-height: 1.2692;
    margin-bottom: 0.6944444444vw;
-   max-width: 44.0277777778vw;
+   max-width: 44.0277777778vw
 }
 
 .modal-form__heading:before {
@@ -611,7 +585,7 @@ video {
    background: url("../img/form-heading-decor.svg") no-repeat;
    background-position: center center;
    background-size: contain;
-   z-index: -1;
+   z-index: -1
 }
 
 .modal-form__subheading {
@@ -620,91 +594,91 @@ video {
    line-height: 1.2692;
    letter-spacing: 0.05em;
    max-width: 44.0277777778vw;
-   margin-bottom: 2.2222222222vw;
+   margin-bottom: 2.2222222222vw
 }
 
 .modal-form__text {
    font-size: 1.1111111111vw;
    line-height: 1.6875;
    color: #5e5e5e;
-   margin-bottom: 1.25vw;
+   margin-bottom: 1.25vw
 }
 
 .modal-form__decor {
    max-width: 7.9166666667vw;
-   margin-bottom: 2.8472222222vw;
+   margin-bottom: 2.8472222222vw
 }
 
 .modal-form__form {
    width: 100%;
-   max-width: 23.0555555556vw;
+   max-width: 23.0555555556vw
 }
 
 .music-button {
    position: fixed;
    top: 2.7777777778vw;
    right: 2.7777777778vw;
-   z-index: 50;
+   z-index: 50
 }
 
 .music-button--active .music-button__item:first-child {
-   animation: audioButtonItem 0.3s alternate infinite;
+   animation: audioButtonItem 0.3s alternate infinite
 }
 
 .music-button--active .music-button__item:nth-child(2) {
-   animation: audioButtonItem 0.4s alternate infinite;
+   animation: audioButtonItem 0.4s alternate infinite
 }
 
 .music-button--active .music-button__item:nth-child(3) {
-   animation: audioButtonItem 0.38s alternate infinite;
+   animation: audioButtonItem 0.38s alternate infinite
 }
 
 .music-button--active .music-button__item:nth-child(4) {
-   animation: audioButtonItem 0.34s alternate infinite;
+   animation: audioButtonItem 0.34s alternate infinite
 }
 
 .music-button--active .music-button__item:nth-child(5) {
-   animation: audioButtonItem 0.44s alternate infinite;
+   animation: audioButtonItem 0.44s alternate infinite
 }
 
 .music-button--active .music-button__item:nth-child(6) {
-   animation: audioButtonItem 0.48s alternate infinite;
+   animation: audioButtonItem 0.48s alternate infinite
 }
 
 .music-button__content {
    display: flex;
    align-items: flex-end;
    justify-content: center;
-   min-height: 1.0416666667vw;
+   min-height: 1.0416666667vw
 }
 
 .music-button__item {
    width: 0.1388888889vw;
    height: 0.4166666667vw;
    background: #313131;
-   margin-right: 0.0694444444vw;
+   margin-right: 0.0694444444vw
 }
 
 .music-button__item:nth-child(2) {
-   height: 0.5555555556vw;
+   height: 0.5555555556vw
 }
 
 .music-button__item:nth-child(4) {
-   height: 0.4861111111vw;
+   height: 0.4861111111vw
 }
 
 .music-button__item:nth-child(5) {
-   height: 0.9027777778vw;
+   height: 0.9027777778vw
 }
 
 .music-button__item:last-child {
-   margin-right: 0;
+   margin-right: 0
 }
 
 .form {
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: center
 }
 
 .form__label-box {
@@ -715,7 +689,7 @@ video {
    padding: 1.25vw;
    position: relative;
    display: flex;
-   align-items: center;
+   align-items: center
 }
 
 .form__label-name {
@@ -728,7 +702,7 @@ video {
    font-size: 0.8333333333vw;
    line-height: 1.5;
    color: #c9c9c9;
-   letter-spacing: 0.05em;
+   letter-spacing: 0.05em
 }
 
 .form__input {
@@ -736,40 +710,40 @@ video {
    color: #5d5d5d;
    letter-spacing: 0.05em;
    font-size: 1.0416666667vw;
-   line-height: 1.2;
+   line-height: 1.2
 }
 
 .form__input:-ms-input-placeholder {
-   color: #c9c9c9;
+   color: #c9c9c9
 }
 
 .form__input::placeholder {
-   color: #c9c9c9;
+   color: #c9c9c9
 }
 
 .form__custom-select {
-   margin-right: 0.5555555556vw;
+   margin-right: 0.5555555556vw
 }
 
 .form__button {
-   margin-top: 1.0416666667vw;
+   margin-top: 1.0416666667vw
 }
 
 .custom-select {
    display: flex;
-   align-items: center;
+   align-items: center
 }
 
 .custom-select__select {
    margin-right: 1.1111111111vw;
-   position: relative;
+   position: relative
 }
 
 .custom-select__head {
    display: inline-block;
    padding-right: 0.6944444444vw;
    position: relative;
-   cursor: pointer;
+   cursor: pointer
 }
 
 .custom-select__head:after {
@@ -783,15 +757,15 @@ video {
    background: url("../img/lang/arrow.svg") no-repeat;
    background-position: center center;
    background-size: contain;
-   transition: transform 250ms ease;
+   transition: transform 250ms ease
 }
 
 .custom-select__head--active:after {
-   transform: translate(0, -50%) rotate(180deg);
+   transform: translate(0, -50%) rotate(180deg)
 }
 
 .custom-select__item {
-   cursor: pointer;
+   cursor: pointer
 }
 
 .custom-select__img {
@@ -799,7 +773,7 @@ video {
    width: 1.5277777778vw;
    height: 1.1111111111vw;
    filter: drop-shadow(0vw 0vw 0.1388888889vw rgba(0, 0, 0, 0.15));
-   border-radius: 0.1388888889vw;
+   border-radius: 0.1388888889vw
 }
 
 .custom-select__body {
@@ -821,17 +795,17 @@ video {
    scrollbar-width: none;
    transition: transform 250ms ease;
    transform-origin: center bottom;
-   transform: scale(0);
+   transform: scale(0)
 }
 
 .custom-select__body::-webkit-scrollbar {
-   display: none;
+   display: none
 }
 
 .custom-select__body .custom-select__item {
    margin-bottom: 0.3472222222vw;
    position: relative;
-   padding-right: 3.4722222222vw;
+   padding-right: 3.4722222222vw
 }
 
 .custom-select__body .custom-select__item:after {
@@ -841,15 +815,15 @@ video {
    right: 0;
    transform: translate(0, -50%);
    width: 3.125vw;
-   font-size: 0.8333333333vw;
+   font-size: 0.8333333333vw
 }
 
 .custom-select__body .custom-select__item:last-child {
-   margin-bottom: 0;
+   margin-bottom: 0
 }
 
 .custom-select__body--active {
-   transform: scale(1);
+   transform: scale(1)
 }
 
 .custom-select__shortcode {
@@ -857,31 +831,31 @@ video {
    letter-spacing: 0.05em;
    color: #5d5d5d;
    font-size: 1.0416666667vw;
-   line-height: 1.2;
+   line-height: 1.2
 }
 
 @keyframes audioButtonItem {
    0% {
-      height: 0.4166666667vw;
+      height: 0.4166666667vw
    }
 
    to {
-      height: 0.9722222222vw;
+      height: 0.9722222222vw
    }
 }
 
-@media (max-width: 1440px) {
+@media (max-width:1440px) {
    * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      -webkit-tap-highlight-color: transparent;
+      -webkit-tap-highlight-color: transparent
    }
 
    body {
       font-family: "Stolzl";
       font-weight: 300;
-      color: #000;
+      color: #000
    }
 
    a,
@@ -894,37 +868,37 @@ video {
       color: inherit;
       background-color: transparent;
       list-style-type: none;
-      text-decoration: none;
+      text-decoration: none
    }
 
    button {
-      cursor: pointer;
+      cursor: pointer
    }
 
    img,
    video {
       width: 100%;
-      height: auto;
+      height: auto
    }
 
    .container {
       margin: 0 auto;
       max-width: 1260px;
-      padding: 0 10px;
+      padding: 0 10px
    }
 
    .main-screen {
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      min-height: 100vh
    }
 
    .main-screen__inner {
       padding: 62px 0;
       display: flex;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: space-between
    }
 
    .main-screen__text-box {
@@ -932,23 +906,23 @@ video {
       max-width: 39.9%;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: flex-start
    }
 
    .main-screen__logo {
-      margin-bottom: 128px;
+      margin-bottom: 128px
    }
 
    .main-screen__info-text {
       margin-bottom: 12px;
       font-size: 18px;
       line-height: 1.2;
-      color: #636363;
+      color: #636363
    }
 
    .main-screen__info-text:nth-child(4) {
       align-self: flex-end;
-      margin-bottom: 135px;
+      margin-bottom: 135px
    }
 
    .main-screen__text {
@@ -959,7 +933,7 @@ video {
       color: #5e5e5e;
       text-align: center;
       margin-bottom: 20px;
-      max-width: 62.42%;
+      max-width: 62.42%
    }
 
    .main-screen__icons {
@@ -967,34 +941,34 @@ video {
       align-items: center;
       justify-content: center;
       -ms-grid-row-align: center;
-      align-self: center;
+      align-self: center
    }
 
    .main-screen__icon {
-      margin-right: 16px;
+      margin-right: 16px
    }
 
    .main-screen__icon:last-child {
-      margin-right: 0;
+      margin-right: 0
    }
 
    .main-screen__video-text {
-      margin-bottom: 20px;
+      margin-bottom: 20px
    }
 
    .main-screen__video-box {
       width: 100%;
-      max-width: 45.16%;
+      max-width: 45.16%
    }
 
    .logo {
-      max-width: 81px;
+      max-width: 81px
    }
 
    .video-text {
       width: 100%;
       height: 140px;
-      position: relative;
+      position: relative
    }
 
    .video-text:after {
@@ -1008,14 +982,14 @@ video {
       background: url("../img/line--main.svg") no-repeat;
       background-size: contain;
       background-position: center center;
-      z-index: 10;
+      z-index: 10
    }
 
    .video-text__video {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%)
    }
 
    .video-text__text {
@@ -1034,14 +1008,14 @@ video {
       color: #000;
       text-transform: uppercase;
       text-align: center;
-      mix-blend-mode: screen;
+      mix-blend-mode: screen
    }
 
    .content__inner {
       padding: 103px 0;
       display: flex;
       align-items: flex-start;
-      justify-content: space-between;
+      justify-content: space-between
    }
 
    .content__heading-box {
@@ -1049,14 +1023,14 @@ video {
       max-width: 39.9%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: center
    }
 
    .content__heading {
       max-width: 284px;
       margin-bottom: 46px;
       position: relative;
-      z-index: 2;
+      z-index: 2
    }
 
    .content__heading:after {
@@ -1069,7 +1043,7 @@ video {
       background: url("../img/leaf--content.png") no-repeat;
       background-position: center center;
       background-size: contain;
-      z-index: 3;
+      z-index: 3
    }
 
    .content__heading:before {
@@ -1083,7 +1057,7 @@ video {
       background: url("../img/line--content.svg") no-repeat;
       background-position: center center;
       background-size: contain;
-      z-index: -1;
+      z-index: -1
    }
 
    .content__list-box {
@@ -1092,39 +1066,32 @@ video {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      margin-top: 36px;
+      margin-top: 36px
    }
 
    .content__list-item {
       position: relative;
-      padding-left: 73px;
+      padding-left: 57px;
       font-size: 18px;
       line-height: 1.67;
-      margin-bottom: 37px;
-   }
-
-   .content__list-item p {
-      padding-top: 11px;
-   }
-
-   .content__list-item p:first-child {
-      padding-top: 0;
+      margin-bottom: 37px
    }
 
    .content__list-item:last-child {
-      margin-bottom: 0;
+      margin-bottom: 0
    }
 
    .content__list-item:before {
-      top: 6px;
-      font-size: 12px;
-      line-height: 14px;
-   }
-
-   .content__list-item::after {
-      font-size: 40px;
-      line-height: 51px;
-      top: 13px;
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 6px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      background: url("../img/line--list.svg") no-repeat;
+      background-position: center center;
+      background-size: contain
    }
 
    .heading {
@@ -1134,7 +1101,7 @@ video {
       line-height: 1.269;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      text-align: center;
+      text-align: center
    }
 
    .button {
@@ -1149,55 +1116,55 @@ video {
       border: 1px solid transparent;
       transition: background 350ms ease-in-out, color 350ms ease-in-out, border 350ms ease-in-out;
       padding: 24px 32px;
-      white-space: nowrap;
+      white-space: nowrap
    }
 
    .button:hover {
       background: #fff;
       border: 1px solid #295941;
-      color: #295941;
+      color: #295941
    }
 
    .diary__inner {
       padding: 103px 0 100px 0;
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: center
    }
 
    .diary__img-box {
       width: 100%;
       max-width: 39.9%;
-      position: relative;
+      position: relative
    }
 
    .diary__img-box:after {
       content: "";
       position: absolute;
-      width: 100%;
-      height: 100%;
+      width: 83.03%;
+      height: 93.91%;
       top: 21px;
       left: 37px;
       background: rgba(0, 0, 0, 0.3);
       filter: blur(41px);
-      z-index: -1;
+      z-index: -1
    }
 
    .diary__img {
       position: relative;
       left: 37px;
-      width: 100%;
+      width: 80.4%
    }
 
    .diary__text-box {
       width: 100%;
-      max-width: 45.16%;
+      max-width: 45.16%
    }
 
    .diary__heading {
       position: relative;
       display: inline-block;
-      margin-bottom: 48px;
+      margin-bottom: 48px
    }
 
    .diary__heading:after {
@@ -1209,14 +1176,14 @@ video {
       height: 172px;
       background: url("../img/leaf--diary.png") no-repeat;
       background-position: center center;
-      background-size: contain;
+      background-size: contain
    }
 
    .diary__text {
       max-width: 62.5%;
       font-size: 16px;
       line-height: 1.75;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.05em
    }
 
    .go__inner {
@@ -1224,25 +1191,25 @@ video {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: flex-start
    }
 
    .go__top {
       margin-bottom: 12px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: center
    }
 
    .go__top-text {
       font-size: 18px;
       line-height: 1.2222;
       color: #636363;
-      margin-right: 72px;
+      margin-right: 72px
    }
 
    .go__top-text:last-child {
-      margin-right: 0;
+      margin-right: 0
    }
 
    .go__heading {
@@ -1260,7 +1227,7 @@ video {
       color: transparent;
       margin-bottom: 69px;
       position: relative;
-      text-align: center;
+      text-align: center
    }
 
    .go__heading:after {
@@ -1271,7 +1238,7 @@ video {
       transform: translateX(-50%);
       height: 1px;
       width: 129px;
-      background: #e8e8e8;
+      background: #e8e8e8
    }
 
    .go__text {
@@ -1279,7 +1246,7 @@ video {
       line-height: 1.2;
       color: #636363;
       text-align: center;
-      margin-bottom: 11px;
+      margin-bottom: 11px
    }
 
    .go__subheading {
@@ -1289,12 +1256,12 @@ video {
       font-size: 50px;
       line-height: 1.26;
       letter-spacing: 0.08em;
-      margin-bottom: 41px;
+      margin-bottom: 41px
    }
 
    .modal-form__content-box {
       max-width: 746px;
-      padding: 56px 20px;
+      padding: 56px 20px
    }
 
    .modal-form__close-button {
@@ -1304,13 +1271,13 @@ video {
       width: 16px;
       height: 16px;
       cursor: pointer;
-      z-index: 10001;
+      z-index: 10001
    }
 
    .modal-form__close-button-inner {
       position: relative;
       width: 16px;
-      height: 16px;
+      height: 16px
    }
 
    .modal-form__close-button-item {
@@ -1318,190 +1285,190 @@ video {
       height: 2px;
       position: absolute;
       top: 50%;
-      left: 50%;
+      left: 50%
    }
 
    .modal-form__close-button-item:first-child {
-      transform: translate(-50%, -50%) rotate(45deg);
+      transform: translate(-50%, -50%) rotate(45deg)
    }
 
    .modal-form__close-button-item:nth-child(2) {
-      transform: translate(-50%, -50%) rotate(-45deg);
+      transform: translate(-50%, -50%) rotate(-45deg)
    }
 
    .modal-form__heading {
       font-size: 52px;
       margin-bottom: 10px;
-      max-width: 634px;
+      max-width: 634px
    }
 
    .modal-form__heading:before {
       top: 25px;
       width: 529px;
-      height: 108px;
+      height: 108px
    }
 
    .modal-form__subheading {
       font-size: 32px;
       max-width: 634px;
-      margin-bottom: 32px;
+      margin-bottom: 32px
    }
 
    .modal-form__text {
       font-size: 16px;
-      margin-bottom: 18px;
+      margin-bottom: 18px
    }
 
    .modal-form__decor {
       max-width: 114px;
-      margin-bottom: 41px;
+      margin-bottom: 41px
    }
 
    .modal-form__form {
-      max-width: 332px;
+      max-width: 332px
    }
 
    .form__label-box {
       border: 1px solid #c0c0c0;
       border-radius: 2px;
       margin-bottom: 25px;
-      padding: 18px;
+      padding: 18px
    }
 
    .form__label-name {
       transform: translate(14px, -50%);
       padding: 0 4px;
-      font-size: 12px;
+      font-size: 12px
    }
 
    .form__input {
-      font-size: 15px;
+      font-size: 15px
    }
 
    .form__custom-select {
-      margin-right: 8px;
+      margin-right: 8px
    }
 
    .form__button {
-      margin-top: 15px;
+      margin-top: 15px
    }
 
    .custom-select__select {
-      margin-right: 16px;
+      margin-right: 16px
    }
 
    .custom-select__head {
-      padding-right: 10px;
+      padding-right: 10px
    }
 
    .custom-select__head:after {
       width: 6px;
-      height: 4px;
+      height: 4px
    }
 
    .custom-select__body {
       height: 150px;
-      max-height: 150px;
+      max-height: 150px
    }
 
    .custom-select__body .custom-select__item {
-      padding-right: 50px;
+      padding-right: 50px
    }
 
    .custom-select__body .custom-select__item:after {
       width: 45px;
-      font-size: 12px;
+      font-size: 12px
    }
 
    .custom-select__img {
       width: 22px;
       height: 16px;
       filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.15));
-      border-radius: 2px;
+      border-radius: 2px
    }
 
    .custom-select__body {
       left: -10px;
       padding: 10px;
       border-radius: 2px;
-      border: 1px solid #c0c0c0;
+      border: 1px solid #c0c0c0
    }
 
    .custom-select__body .custom-select__item {
-      margin-bottom: 5px;
+      margin-bottom: 5px
    }
 
    .custom-select__shortcode {
       max-width: 41px;
-      font-size: 15px;
+      font-size: 15px
    }
 
    @keyframes audioButtonItem {
       0% {
-         height: 6px;
+         height: 6px
       }
 
       to {
-         height: 14px;
+         height: 14px
       }
    }
 }
 
-@media (max-width: 1365px) {
+@media (max-width:1365px) {
    .main-screen__inner {
-      justify-content: center;
+      justify-content: center
    }
 
    .main-screen__text-box {
-      margin-right: 40px;
+      margin-right: 40px
    }
 }
 
-@media (max-width: 1199px) {
+@media (max-width:1199px) {
    .container {
-      padding: 0 20px;
+      padding: 0 20px
    }
 
    .main-screen {
-      min-height: auto;
+      min-height: auto
    }
 
    .main-screen__inner {
-      justify-content: space-between;
+      justify-content: space-between
    }
 
    .main-screen__text-box {
       max-width: 49.9%;
-      margin-right: 0;
+      margin-right: 0
    }
 
    .video-text__text {
       width: 103%;
-      height: 111%;
+      height: 111%
    }
 }
 
-@media (max-width: 1023px) {
+@media (max-width:1023px) {
    .main-screen__inner {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
       padding: 18px 0 200px 0;
-      position: relative;
+      position: relative
    }
 
    .main-screen__text-box {
-      max-width: 100%;
+      max-width: 100%
    }
 
    .main-screen__logo {
       -ms-grid-row-align: center;
       align-self: center;
-      margin-bottom: 30px;
+      margin-bottom: 30px
    }
 
    .main-screen__info-text:nth-child(4) {
-      margin-bottom: 50px;
+      margin-bottom: 50px
    }
 
    .main-screen__text {
@@ -1509,122 +1476,122 @@ video {
       position: absolute;
       bottom: 46px;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%)
    }
 
    .main-screen__icons {
       position: absolute;
       bottom: 0;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%)
    }
 
    .main-screen__video-box {
-      max-width: 100%;
+      max-width: 100%
    }
 
    .diary__text {
-      max-width: 82.5%;
+      max-width: 82.5%
    }
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
    .main-screen__logo {
-      margin-bottom: 19px;
+      margin-bottom: 19px
    }
 
    .main-screen__info-text {
       font-size: 16px;
       margin-bottom: 0;
       transform: translateY(11px);
-      z-index: 10;
+      z-index: 10
    }
 
    .main-screen__info-text:nth-child(4) {
       transform: translateY(-18px);
-      margin-bottom: 31px;
+      margin-bottom: 31px
    }
 
    .main-screen__text {
-      max-width: 100%;
+      max-width: 100%
    }
 
    .main-screen__video-text {
-      margin-bottom: 0;
+      margin-bottom: 0
    }
 
    .logo {
-      max-width: 58px;
+      max-width: 58px
    }
 
    .video-text:after {
       top: 49%;
-      width: 106%;
+      width: 106%
    }
 
    .video-text__text {
-      font-size: 95px;
+      font-size: 95px
    }
 
    .content {
-      margin-bottom: 98px;
+      margin-bottom: 98px
    }
 
    .content__inner {
-      padding: 50px 0 36px 0;
+      padding: 80px 0 36px 0;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      position: relative;
+      position: relative
    }
 
    .content__heading-box {
-      max-width: 100%;
+      max-width: 100%
    }
 
    .content__heading {
       max-width: 162px;
-      margin-bottom: 42px;
+      margin-bottom: 42px
    }
 
    .content__heading:after {
       right: -28px;
       bottom: -20px;
       width: 80px;
-      height: 95px;
+      height: 95px
    }
 
-   .content__inner .content__button {
+   .content__button {
       position: absolute;
       left: 50%;
-      min-width: 0;
       bottom: -63px;
-      transform: translateX(-50%);
+      transform: translateX(-50%)
    }
 
    .content__list-box {
       max-width: 100%;
-      margin-top: 0;
+      margin-top: 0
    }
 
    .content__list-item {
+      padding-left: 32px;
       margin-bottom: 24px;
-      max-width: 315px;
+      max-width: 315px
    }
 
    .content__list-item:before {
-      width: 23px;
+      width: 23px
    }
 
    .diary {
-      overflow: hidden;
+      overflow: hidden
    }
 
    .diary__inner {
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      padding: 36px 9px;
+      padding: 36px 9px
    }
 
    .diary__img-box {
@@ -1632,80 +1599,74 @@ video {
       margin-bottom: 63px;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: center
    }
 
    .diary__img-box:after {
-      width: 100%;
+      width: 91.64%;
       left: auto;
       right: 0;
-      filter: blur(17px);
+      filter: blur(17px)
    }
 
    .diary__img {
-      width: auto;
-      height: 439px;
-      left: 0;
+      width: 100%;
+      left: 0
    }
 
    .diary__text-box {
-      max-width: 100%;
+      max-width: 100%
    }
 
    .diary__heading {
-      margin-bottom: 24px;
+      margin-bottom: 24px
    }
 
    .diary__heading:after {
       bottom: -14px;
       right: -54px;
       width: 80px;
-      height: 100px;
+      height: 100px
    }
 
    .diary__text {
       max-width: 100%;
       font-size: 14px;
-      line-height: 1.8671;
+      line-height: 1.8671
    }
 
    .heading {
-      font-size: 40px;
+      font-size: 40px
    }
 
    .button {
-      padding: 20px 32px;
-      min-width: 193px;
-      min-height: 66px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 20px 32px
    }
 
    .go__inner {
-      padding: 36px 0 72px 0;
+      padding: 36px 0 72px 0
    }
 
    .go__top {
-      margin-bottom: 9px;
+      margin-bottom: 9px
    }
 
    .go__heading {
       font-size: 95px;
-      margin-bottom: 54px;
+      margin-bottom: 54px
    }
 
    .go__heading:after {
-      bottom: -28px;
+      bottom: -28px
    }
 
    .go__text {
-      margin-bottom: 6px;
+      margin-bottom: 6px
    }
 
    .go__subheading {
       font-size: 48px;
-      margin-bottom: 36px;
+      margin-bottom: 36px
    }
 
    .modal-form__content-box {
@@ -1714,43 +1675,43 @@ video {
       top: auto;
       bottom: 0;
       transform: translate(-50%, 0);
-      overflow-y: hidden;
+      overflow-y: hidden
    }
 
    .modal-form__heading {
       font-size: 32px;
-      margin-bottom: 2px;
+      margin-bottom: 2px
    }
 
    .modal-form__heading:before {
       top: 5px;
       width: 299px;
-      height: 62px;
+      height: 62px
    }
 
    .modal-form__subheading {
       font-size: 20px;
-      margin-bottom: 15px;
+      margin-bottom: 15px
    }
 
    .modal-form__decor {
       max-width: 68px;
-      margin-bottom: 15px;
+      margin-bottom: 15px
    }
 
    .modal-form__text {
       font-size: 14px;
       margin-bottom: 16px;
       text-align: center;
-      max-width: 240px;
+      max-width: 240px
    }
 
    .form__label-box {
-      margin-bottom: 22px;
+      margin-bottom: 22px
    }
 
    .form__button {
-      margin-top: 7px;
+      margin-top: 7px
    }
 }
 
@@ -2379,15 +2340,7 @@ video {
       height: 687px;
    }
 
-   video {
-      height: 100%;
-      width: 100%;
-   }
 
-   .reviews-slide video {
-      height: 100%;
-      width: 100%;
-   }
 
    .reviews-slide-prev img,
    .reviews-slide-next img {
