@@ -1819,7 +1819,8 @@ video {
 }
 
 .author__photo img {
-   width: 100%;
+   width: 447px;
+   height: 519px;
 }
 
 .author__text-block {
@@ -1941,7 +1942,7 @@ video {
    }
 
    .author__about {
-      flex: 0 1 48.19vw;
+      flex: 0 1 auto;
    }
 
    .author__about-text {
@@ -1951,6 +1952,7 @@ video {
 
    .author__about-text p {
       font-size: 16px;
+      font-weight: 300;
    }
 
    .author__photo {
@@ -1961,7 +1963,6 @@ video {
    .author__text-block {
       flex: 0 1 32.222vw;
       padding-left: calc(32px + 58 * ((100vw - 425px) / 1440));
-      ;
    }
 
    .author__sub-title {
@@ -2037,12 +2038,22 @@ video {
    }
 }
 
-@media (max-width: 1024px) {
+@media (min-width:1170px) {
+   .author__text-block {
+      flex: 0 1 37.222vw;
+   }
+}
+
+@media (max-width: 1090px) {
    .author__partners-wrapper {
       overflow-y: auto;
       box-sizing: content-box;
       flex: 1 1 auto;
       margin-right: -20px;
+   }
+
+   .author__inner {
+      justify-content: center;
    }
 
    .author__partners {
@@ -2061,14 +2072,12 @@ video {
    .author__sub-title {
       position: absolute;
       top: 0;
-      left: calc(20px + 400 * ((100vw - 320px) / 1024));
+      left: 24px;
    }
 
    .author__about-text {
       margin-top: 34px;
       margin-right: 0px;
-      font-weight: 300;
-
    }
 
    .author__about-text .text-400-16 {
@@ -2077,12 +2086,13 @@ video {
       padding-right: calc(100 * ((100vw - 375px) / 1024));
       padding-left: calc(100 * ((100vw - 375px) / 1024));
       padding-bottom: 25px;
+      font-weight: 300;
    }
 
    .author__heading {
       position: absolute;
       top: 45px;
-      left: calc(20px + 400 * ((100vw - 320px) / 1024));
+      left: 24px;
    }
 
    .author__about {
@@ -2093,8 +2103,13 @@ video {
 
    .author__photo {
       width: 335px;
-      height: 403px;
+      height: auto;
       margin: 0px auto;
+   }
+
+   .author__photo img {
+      width: 100%;
+      height: auto;
    }
 
    .author__heading span.name::before {
